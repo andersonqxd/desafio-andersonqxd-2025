@@ -1,6 +1,7 @@
 import { AbrigoAnimais } from "./abrigo-animais";
 
 describe('Abrigo de Animais', () => {
+  
 
   test('Deve rejeitar animal inválido', () => {
     const resultado = new AbrigoAnimais().encontraPessoas('CAIXA,RATO', 'RATO,BOLA', 'Lulu');
